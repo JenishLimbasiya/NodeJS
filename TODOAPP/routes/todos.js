@@ -7,9 +7,9 @@ const { updateTodo } = require("../controllers/upDateTodo");
 const { deleteTodo } = require("../controllers/deleteTodo");
 
 // define Api routes
-router.post("/createTodo", createTodo);
-router.get("/getTodos", getTodo);
-router.get("/getTodos/:id", getTodoById);
-router.put("/updateTodo/:id", updateTodo);
-router.delete("/deleteTodo/:id", deleteTodo);
+router.post("/create_todo", createTodo);
+router.get("/get_todos", getTodo);
+router.get("/get_todos/:id", getTodoById);
+router.put("/update_todo/:id", updateTodo);
+router.delete("/delete_todo/:id", deleteTodo);
 module.exports = router;
