@@ -1,6 +1,5 @@
 const Todo = require("../models/Todo");
 
-// define route handler
 exports.deleteTodo = async (req, res) => {
   try {
     const { id } = req.params;
